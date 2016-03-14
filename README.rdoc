@@ -1,28 +1,15 @@
-== README
+== Raffler
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Sample application uses AngularJS and Ruby on Rails.
 
-Things you may want to cover:
+Ruby version = 2.3.0
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Rails version = 4.2.5.1
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Run application:
+* get to the app directory
+* bundle install
+* rake db:migrate
+* rake db:seed
+* rails server
